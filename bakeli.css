@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+}
+body{
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.518),rgba(0, 0, 0, 0.559)), url(photo.png);
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+}
+.logo{
+    width: 150px;
+}
+header{
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu {
+    color: white;
+    text-decoration: none;
+}
+.vert{
+    background-color: #009b86;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+.nav-item{
+    color: WHITE;
+}
+h1{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+.button{
+    text-align: center;
+    margin-top: 100px;
+}
+.button button{
+    border: none;
+    padding: 10px;
+}
+.but{
+    background-color: #fc9c00;
+    color: white;
+}
+.but1{
+    background-color: white;
+    color: #69aca5;
+    margin-bottom: 10px;
+
+}
+.dropdown-menu{
+    background-color: #69aca5;
+    
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown a {
+    font-size: 20px;
+}
+.burguer{
+    width: 25px;
+    fill: #3fafa6e5;
+    display: none;
+}
+
+@media (max-width :1350px) {
+    .logo{
+        width: 60px;
+
+    }
+    nav .menu{
+        display: flex;
+        align-items: center;
+    }
+
+    nav .a{
+        font-size: 12px;
+
+    }
+    .nav p{
+        width: 70%;
+        margin: 20px 0;
+    }
+    .button{
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width :400px) {
+    
+    
+
+    nav .a{
+        font-size: 30px;
+
+    }
+    .nav p{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .burguer{
+        display: flex;
+    }
+}
+
+@media (max-width :950px) {
+    nav{
+        display: none;
+    }
+    nav.active {
+        background-color:  orangered;
+        position: absolute;
+        display: flex;
+        top: 8%;
+        right: 4%;
+        flex-direction: column;
+        width: 70% ;
+        padding: 3%;
+    }
+    
+    .nav h1{
+        font-size: 30px;
+
+    }
+    .nav p{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .burguer{
+        display: flex;
+        position: absolute;
+        top: 3%;
+        right: 5%;
+    }
+}
