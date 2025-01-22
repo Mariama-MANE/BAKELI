@@ -6,20 +6,39 @@
     text-decoration: none;
     text-transform: none;
 }
-body{
-    background: linear-gradient(to top , rgba(0, 0, 0, 0.518),rgba(0, 0, 0, 0.559)), url(photo.png);
-    background-size: cover;
-    align-items: center;
-    height: 100vh;
-}
-.logo{
-    width: 150px;
-}
-header{
-    padding: 10px 10%;
+
+.header {
+   
+    /* height: 10vh; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.logo{
+    width: 120px;
+}
+
+.header_content {
+
+ 
+    height: 90vh;
+    padding: 10%;
+
+}
+
+.header_content .button {
+  
+  align-items: center;
+  gap: 20px;
+}
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.449)) ,url(/image/photo.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 10px 10%;
+    
 }
 nav{
     display: flex;
@@ -39,7 +58,9 @@ nav{
 .nav-item{
     color: WHITE;
 }
-h1{
+
+
+header h1{
     color: white;
     font-size: 3.5rem;
     margin-bottom: 50px;
@@ -59,7 +80,7 @@ h1{
 .but1{
     background-color: white;
     color: #69aca5;
-    margin-bottom: 10px;
+   
 
 }
 .dropdown-menu{
@@ -77,6 +98,85 @@ h1{
     fill: #3fafa6e5;
     display: none;
 }
+
+
+
+section {
+    padding: 5%;
+
+    }
+
+
+section  .texte .orange {
+    color:orange;
+}
+section p {
+    color: black;
+}
+
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.svg {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.svg .icone {
+   width: 400px;
+   text-align: center;
+}
+
+.svg .icone img {
+   width: 70px;
+   margin-bottom: 20px;
+   object-fit: cover;
+
+}
+.svg .icone h1 {
+   font-size: 30px;
+   color: black;
+}
+
+
+.svg .icone p {
+   font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width :1350px) {
     .logo{
@@ -159,4 +259,9 @@ h1{
         top: 3%;
         right: 5%;
     }
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    margin-bottom: 50px;
 }
