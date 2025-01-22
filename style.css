@@ -51,7 +51,7 @@ nav{
 }
 .vert{
     background-color: #009b86;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border: none;
     outline: none;
 }
@@ -98,86 +98,6 @@ header h1{
     fill: #3fafa6e5;
     display: none;
 }
-
-
-
-section {
-    padding: 5%;
-
-    }
-
-
-section  .texte .orange {
-    color:orange;
-}
-section p {
-    color: black;
-}
-
-
-.texte {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-
-
-.svg {
-   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 5%;
-}
-
-.svg .icone {
-   width: 400px;
-   text-align: center;
-}
-
-.svg .icone img {
-   width: 70px;
-   margin-bottom: 20px;
-   object-fit: cover;
-
-}
-.svg .icone h1 {
-   font-size: 30px;
-   color: black;
-}
-
-
-.svg .icone p {
-   font-size: 16px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width :1350px) {
     .logo{
         width: 60px;
@@ -264,4 +184,79 @@ h1{
     color: rgb(255, 255, 255);
     font-size: 3.5rem;
     margin-bottom: 50px;
+}
+
+
+section {
+    padding: 5%;
+
+    }
+
+
+section  .texte .orange {
+    color:orange;
+}
+section p {
+    color: black;
+}
+
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.svg {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    flex: 1;
+}
+
+.svg .icone {
+   width: 400px;
+   text-align: center;
+}
+
+.svg .icone img {
+   width: 70px;
+   margin-bottom: 20px;
+   object-fit: cover;
+
+}
+.svg .icone h1 {
+   font-size: 30px;
+   color: black;
+}
+
+
+.svg .icone p {
+    color: #009b86;
+   font-size: 24px;
+}
+.svg .icone:hover{
+    background-color: #fc9c00;
+    color: #009b86;
+}
+.stage{
+color: #009b86;
+}
+.svg .icone {
+    color: #009b86;
+}
+.icone {
+    width: 50px;
+    fill: #3fafa6e5;
+    
+    text-align: center;
+}
+.bloc2{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    padding: 20px;
 }
